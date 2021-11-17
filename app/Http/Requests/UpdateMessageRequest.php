@@ -24,7 +24,7 @@ class UpdateMessageRequest extends FormRequest
     public function rules()
     {
         return [
-            'content' => 'nullable|max:255'
+            'content' => 'required|max:255'
         ];
     }
 }
