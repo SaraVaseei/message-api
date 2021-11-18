@@ -11,7 +11,7 @@ class UpdateMessageTest extends TestCase
 {
 
     /**
-     * Update number product test.
+     * Update message test.
      *
      * @return void
      */
