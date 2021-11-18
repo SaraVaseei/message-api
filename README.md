@@ -13,5 +13,5 @@ Follow according to following steps in order to run the application on your mach
 - Open another terminal and run ./vendor/bin/sail artisan key:generate
 - Run ./vendor/bin/sail artisan migrate
 - Run ./vendor/bin/sail artisan l5-swagger:generate
-- Open localhost:8087/api/documentation in a browser to check Swagger documentation
+- Open [Swagger documentation](http://localhost:8087/api/documentation) in a browser to check the application 
 - Feel free to call all the endpoints via postman but don't forget to send your bearer token in the header 😁
